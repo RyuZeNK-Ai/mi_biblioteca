@@ -1,7 +1,3 @@
-# ==========================================
-# 📚 Mi Biblioteca - Ejercicio de Colecciones
-# ==========================================
-
 # 1️⃣ Lista que almacena libros (cada libro es un diccionario)
 biblioteca = [
     {"titulo": "El Principito", "autor": "Antoine de Saint-Exupéry", "anio": 1943},
@@ -34,4 +30,5 @@ if agregar == "s":
     # Mostrar lista actualizada
     print("\n=== Mi Biblioteca Actualizada ===")
     for i, libro in enumerate(biblioteca, start=1):
+
         print(f"{i}. {libro['titulo']} - {libro['autor']} ({libro['anio']})")
